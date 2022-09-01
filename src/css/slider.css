@@ -1,0 +1,61 @@
+.page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.page .slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s ease-out;
+  display: flex;
+  align-items: center;
+}
+
+.page .slide.selecionado {
+  opacity: 1;
+}
+
+.fundo1 {
+  background: url(../images/corrimaovidro.jpeg);
+}
+
+.fundo2 {
+  background: url(../images/piaaluminio2.jpeg);
+}
+
+.fundo3 {
+  background: url(../images/janelavidro.jpeg);
+}
+
+.fundo4 {
+  background: url(../images/piavidro.jpeg);
+}
+
+.fundo5 {
+  background: url(../images/janelavidro2.jpeg);
+}
+
+.seta-voltar,
+.seta-avancar {
+  position: absolute;
+  z-index: 1;
+}
+
+.seta-voltar {
+  left: 4%;
+}
+
+.seta-avancar {
+  right: 4%;
+}
+
+.opacidade {
+  opacity: 0.6;
+  cursor: default;
+}

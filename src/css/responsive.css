@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+  .hero .titulo {
+    font-size: 250%;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .footer .whatsapp {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    display: none;
+  }
+
+  .header img {
+    display: flex;
+    width: 4rem;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+
+  .hero .titulo {
+    margin: auto;
+    padding: auto;
+    font-size: 180%;
+  }
+
+  .seta-voltar,
+  .seta-avancar {
+    width: 5%;
+  }
+
+  .about .item {
+    text-align: center;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .footer .whatsapp {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 452px) {
+  .projects {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
